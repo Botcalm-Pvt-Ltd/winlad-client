@@ -84,7 +84,7 @@ function Raffles() {
         <Loader />
       ) : (
         <div className="flex relative mx-auto justify-between">
-          <SideNav screen="full" />
+          <SideNav screen="screen" />
 
           {/* home-content */}
           <div className="flex-1 mx-5 w-full 3xl:mx-auto">
