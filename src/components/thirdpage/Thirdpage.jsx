@@ -43,7 +43,6 @@ function Thirdpage() {
         background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
       }}
     >
-
       <div className="lg:grid grid-cols-2 gap-2 md:pl-8 ">
         <div className=" flex justify-center p-2 4xl:p-4 relative xl:mx-32 lg:mx-24 items-center">
           <motion.div
@@ -60,13 +59,17 @@ function Thirdpage() {
                 <p className="4xl:text-6xl text-2xl xl:text-2xl md:text-2xl">Australian business Benefits</p>
               </div>
             </div> */}
-             <div className="px-4 py-4 font-bold text-xl border-t rounded-xl flex flex-row items-center gap-2">
+            <div className="px-4 py-4 font-bold text-xl border-t rounded-xl flex flex-row items-center gap-2">
               <div>
                 <img src={tick} alt="tick" className="ticker" />
               </div>
               <div className="flex flex-col">
-                <p className="4xl:text-6xl text-2xl xl:text-2xl md:text-2xl">600+</p>
-                <p className="4xl:text-6xl text-2xl xl:text-2xl md:text-2xl">Australian business Benefits</p>
+                <p className="special:text-5xl text-2xl xl:text-2xl md:text-2xl ">
+                  600+
+                </p>
+                <p className="special:text-5xl text-2xl xl:text-2xl md:text-2xl pro:text-xl">
+                  Australian business Benefits
+                </p>
               </div>
             </div>
             <div className="px-4 py-4 font-bold text-xl border-t rounded-xl flex flex-row items-center gap-2">
@@ -74,8 +77,12 @@ function Thirdpage() {
                 <img src={tick} alt="tick" className="ticker" />
               </div>
               <div className="flex flex-col">
-                <p className="4xl:text-6xl text-2xl xl:text-2xl md:text-2xl">1000s</p>
-                <p className="4xl:text-6xl text-2xl xl:text-2xl md:text-2xl">In savings through our mates rates discounts</p>
+                <p className="special:text-5xl text-2xl xl:text-2xl md:text-2xl">
+                  1000s
+                </p>
+                <p className="special:text-5xl text-2xl xl:text-2xl md:text-2xl pro:text-xl">
+                  In savings through our mates rates discounts
+                </p>
               </div>
             </div>
             <div className="px-4 py-4 font-bold text-xl border-t rounded-xl flex flex-row items-center gap-2">
@@ -84,8 +91,12 @@ function Thirdpage() {
               </div>
 
               <div className="flex flex-col">
-                <p className="4xl:text-6xl text-2xl xl:text-2xl md:text-2xl">1000s</p>
-                <p className="4xl:text-6xl text-2xl xl:text-2xl md:text-2xl">Stores you can redeem offers in person or online</p>
+                <p className="special:text-5xl text-2xl xl:text-2xl md:text-2xl">
+                  1000s
+                </p>
+                <p className="special:text-5xl text-2xl xl:text-2xl md:text-2xl pro:text-xl">
+                  Stores you can redeem offers in person or online
+                </p>
               </div>
             </div>
           </motion.div>
@@ -105,7 +116,7 @@ function Thirdpage() {
         </motion.div>
       </div>
       <div className="md:pr-0 2xl:pr-10">
-        <p className="text-lg 4xl:text-8xl xl:text-6xl md:text-4xl font-bold uppercase tracking-widest p-4 text-center lg:text-4xl lg:text-right 4xl:text-right xl:text-right">
+        <p className="text-lg 4xl:text-8xl xl:text-6xl special:text-8xl md:text-4xl font-bold uppercase tracking-widest p-4 text-center lg:text-4xl lg:text-right 4xl:text-right xl:text-right">
           Some our Partners
         </p>
         <div className="flex justify-center lg:justify-end ml-10 lg:ml-0">
