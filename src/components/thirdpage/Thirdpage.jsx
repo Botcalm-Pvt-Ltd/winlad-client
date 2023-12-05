@@ -112,7 +112,7 @@ function Thirdpage() {
           // transition={{ duration: 0.5, delay: 0.25 }}
           className="relative"
         >
-          <img src={jeep3} alt="" style={{ width: "1700px" }} />
+          <img src={jeep3} alt="" style={{ width: "1700px" }}  className=""/>
         </motion.div>
       </div>
       <div className="md:pr-0 2xl:pr-10">

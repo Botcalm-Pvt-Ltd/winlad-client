@@ -36,7 +36,7 @@ function Fourthpage() {
             "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
         }}
       >
-        <p className="text-lg font-bold text-center uppercase tracking-widest p-4  ">
+        <p className="text-lg 4xl:text-8xl xl:text-6xl special:text-8xl md:text-4xl font-bold text-center uppercase tracking-widest p-4  ">
           Explore Exclusive MemberBenefit
         </p>
         <motion.div variants={textAnimate}>
@@ -133,7 +133,7 @@ function Fourthpage() {
           </div>
         </motion.div>
         <div>
-          <img src={jeep2} alt="" style={{ width: "750px" }} />
+          <img src={jeep2} alt="" />
         </div>
       </motion.div>
       {/* --------------------------------------------------------------- */}
@@ -361,7 +361,7 @@ function Fourthpage() {
             // transition={{ duration: 0.5, delay: 0.25 }}
             src={jeep2}
             alt=""
-            className="absolute special:w-[1100px] lg:w-[300px] xl:w-[600px] xl:p-10"
+            className="absolute special:w-[1100px]  xl:w-[600px] xl:p-10  pro:w-0"
             style={{ top: "40%", zIndex: "2" }}
           />
         </div>

@@ -42,7 +42,7 @@ function Showcase() {
       whileInView={"onscreen"}
       viewport={{ once: true, amount: 0.5 }}
       transition={{ staggerChildren: 0.5 }}
-      className="grid grid-cols-1 gap-2 lg:grid-cols-2"
+      className="grid grid-cols-1 gap-2 lg:grid-cols-2 "
       style={{
         position: "relative",
         background: "linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%)",
@@ -63,7 +63,7 @@ function Showcase() {
           style={{ position: "absolute", top: "0px" }}
         />
         <img
-          className="hidden xl:block w-[600px] 4xl:w-[800px]"
+          className="hidden xl:block w-[600px] special:w-[800px]"
           src={win}
           alt="logo"
           style={{
@@ -95,7 +95,7 @@ function Showcase() {
         />
         <motion.img
           variants={imageAnimate}
-          className="hidden lg:block lg:w-[800px]  special:w-[1600px] xl:w-[800px] "
+          className="hidden lg:block lg:w-[800px]  special:w-[1600px] xl:w-[800px]"
           src={jeepImg}
           style={{
             position: "absolute",
@@ -117,7 +117,7 @@ function Showcase() {
         />
       </div>
       <div className="flex flex-col space-y-4 mx-2 mt-10 md:mt-0 lg:pr-10">
-        <div className="hidden lg:block" style={{ height: "40%" }}></div>
+        <div className="hidden lg:block " style={{ height: "40%" }}></div>
         <div className="pt-4 dashcontent-group z-10">
           <p className="font-semibold text-right uppercase text-sm  special:text-4xl xl:text-2xl pro:text-xl">
             With over 650+ businesses across 1000+ stores where you can
