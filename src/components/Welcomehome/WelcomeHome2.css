@@ -1,0 +1,16 @@
+.bg-welcome{
+    background-image: url("../../assets/images/welcomehome/videimg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-welcome2 {
+    background-image: url("../../assets/images/welcomehome/hidebg.png"),
+                      linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+

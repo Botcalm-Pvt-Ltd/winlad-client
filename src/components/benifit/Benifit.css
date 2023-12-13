@@ -1,0 +1,11 @@
+.bg-benifit{
+
+}
+
+.bg-benifit{
+    background-image: url("../../assets/images/benifit/Ellipse3.png"),
+                      linear-gradient(88deg, #43E3ED -21.82%, #FFE9E9 131.12%);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
