@@ -65,7 +65,7 @@ const Showcase2 = () => {
                 transition={{ duration: 0.5, delay: 0.3 }}
                 className="text-xs sm:text-sm md:text-base xl:text-lg 2xl:text-xl special:text-2xl font-semibold"
               >
-                With over 650+ businesses across 1000+ stores where
+               With over 200+ businesses across 250+ stores where
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: "-10%" }}

@@ -22,8 +22,7 @@ function Footer() {
           <div>
             <ul>
               <li>
-                <a className="fbottomlink" href="/">
-                  Home
+                <a className="fbottomlink" href="/">nvm
                 </a>
               </li>
               <li>
