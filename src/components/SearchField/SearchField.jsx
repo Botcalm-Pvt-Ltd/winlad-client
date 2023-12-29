@@ -1,5 +1,4 @@
-import { CiSearch } from "react-icons/ci";
-
+import { IoSearch } from "react-icons/io5";
 const SearchField = () => (
   <div className="relative">
     <input
@@ -8,7 +7,7 @@ const SearchField = () => (
       placeholder="Search"
       aria-label="Search"
     />
-    <CiSearch className="text-3xl absolute top-1/2 left-1 -translate-y-1/2"/>
+    <IoSearch className="text-3xl absolute top-1/2 left-1 -translate-y-1/2"/>
   </div>
 );
 

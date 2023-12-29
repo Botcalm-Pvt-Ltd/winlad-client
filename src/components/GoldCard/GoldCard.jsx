@@ -33,12 +33,12 @@ const GoldCard = () => {
     <>
       {!loading && (
         <div
-          className={`relative border border-solid border-${
+          className={`relative border border-solid ${
             valUser.subscripton?.name == "Platinum"
-              ? "black"
+              ? "border-black"
               : "" | (valUser.subscripton?.name == "Black")
-              ? "white"
-              : ""
+              ? "border-white"
+              : "bg-white"
           } overflow-hidden rounded-3xl px-4 special:px-8 2xl:px-6 flex flex-row justify-between py-4 special:py-8 2xl:py-4 cursor-pointer`}
           style={{ backgroundColor: valUser ? valUser.subscripton?.color : "" }}
         >
