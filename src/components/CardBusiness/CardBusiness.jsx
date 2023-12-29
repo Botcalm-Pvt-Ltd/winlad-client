@@ -107,7 +107,7 @@ const BCard = () => {
               </div>
 
               <span className="text-blue text-center md:text-sm xl:text-sm 2xl:text-xl special:text-2xl">
-                giveaways@winlads.com.au
+                giveaways@winlads.com
               </span>
             </div>
           </div>
