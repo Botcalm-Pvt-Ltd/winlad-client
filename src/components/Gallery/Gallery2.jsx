@@ -104,7 +104,7 @@ const Gallery2 = () => {
               whileInView={{ opacity: 1, y: "0" }}
               transition={{ duration: 0.5, delay: 0.9 }}
               viewport={{ once: true }}
-              className="font-bold text-base xl:text-lg 2xl:text-xl special:text-3xl px-3 2xl:px-5 special:px-8 py-2 2xl:py-3 special:py-5 text-[#d4d4d4] bg-black rounded-lg hover:text-white hover:bg-[#00F0FF]"
+              className="font-bold text-base xl:text-lg 2xl:text-xl special:text-3xl px-3 2xl:px-5 special:px-8 py-2 2xl:py-3 special:py-5 text-[#d4d4d4] bg-black rounded-lg hover:text-white hover:bg-black/75"
             >
               {" "}
               Load More...
