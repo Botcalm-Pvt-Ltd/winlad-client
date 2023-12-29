@@ -191,7 +191,7 @@ function ShareForm({
   };
 
   return (
-    <form className="form-contain-reg space-y-5 w-full xl:w-3/5 special:w-3/5 special:space-y-16">
+    <form className="form-contain-reg space-y-5 w-full xl:w-4/5 special:w-4/5 special:space-y-16">
       <p className="text-black text-lg special:pt-5 special:text-2xl">
         Let’s Get Your Card !!
       </p>
