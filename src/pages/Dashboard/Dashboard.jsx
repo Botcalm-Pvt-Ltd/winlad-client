@@ -130,7 +130,7 @@ const Dashboard = () => {
                     <p className="text-[#22CCEE] text-xl font-semibold">
                       Earning Balance
                     </p>
-                    <p className="text-4xl text-black">${valUser.balance || "0.00"}</p>
+                    <p className="text-4xl text-black">${(Math.floor(valUser.balance * 100) / 100).toFixed(2)}</p>
                   </div>
                   <SmallGoldCard />
                 </div>
@@ -198,7 +198,7 @@ const Dashboard = () => {
                       <p className="text-[#22CCEE] text-2xl font-semibold">
                         Earning Balance
                       </p>
-                      <p className="text-4xl text-white">${valUser.balance}</p>
+                      <p className="text-4xl text-white">${(Math.floor(valUser.balance * 100) / 100).toFixed(2)}</p>
                     </div>
                     <SmallGoldCard />
                   </div>
