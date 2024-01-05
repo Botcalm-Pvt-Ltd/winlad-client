@@ -19,6 +19,7 @@ import NewVeh from "../../assets/images/newVeh.png";
 
 import SelectRafflePaymentMethod from "../../components/RaffleComponent/SelectRafflePaymentMethod";
 import NoLive from "../../components/Live/NoLive";
+import { RiInformationFill } from "react-icons/ri";
 
 export const bgStyle = {
   backgroundImage: `url(${bgCar})`,
@@ -90,6 +91,11 @@ function Raffles() {
     setSelectedName(name);
     setSelectPayment(true);
   };
+
+  const handleInfo =() => {
+    navigate("/won");
+    
+  }
 
   return (
     <>
@@ -233,6 +239,9 @@ function Raffles() {
                             className="flex w-36 special:w-96 2xl:w-48"
                           />
                           <div className="flex flex-col space-y-4">
+                            <div className="flex justify-end pr-2 cursor-pointer" onClick={handleInfo}>
+                              <RiInformationFill className="text-white" />
+                            </div>
                             <div className="flex justify-end">
                               <img
                                 src={raffle.img}
